@@ -1,11 +1,25 @@
 #Best {
+  margin-bottom: 5%;
   .container {
+    .Best-item-glava {
+      margin-bottom: 5%;
+      margin-left: 3%;
+    }
     .Best-item {
-      .Best-item-glava {
-         margin-bottom: 3%;
-      }
-      .Best-item-slider{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .Best-item-slider {
         margin-bottom: 3%;
+        .Best-item-img {
+          .Best-item-img-min {
+            width: 90%;
+            height: 75%;
+            border-radius: 12px;
+            margin: 5% 0;
+          }
+        }
       }
     }
   }
