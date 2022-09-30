@@ -1,0 +1,44 @@
+#About {
+  margin-bottom: 6%;
+  .container {
+    .About-nav {
+      width: 64%;
+      height: 100%;
+      background: #F5F5F5;
+      border-radius: 12px;
+      margin-top: 2%;
+      margin-left: 18%;
+      .About-nav-entire {
+        text-align: center;
+        font-size: 120%;
+
+        .About-nav-entire-text {
+          margin-bottom: 3%;
+        }
+      }
+      .About-nav-all {
+        margin-left: 5%;
+
+        .About-nav-entire-text {
+          margin-bottom: 2%;
+        }
+      }
+      .About-nav-loo {
+        margin-bottom: 3%;
+        .About-nav-button {
+          width: 80%;
+          height: 80%;
+          padding: 21px 6px;
+          background: #73C371;
+          border-radius: 1111px;
+          border: none;
+          margin-left: 4%;
+          margin-bottom: 2%;
+        }
+        .About-nav-loo-text {
+          margin-left: 4%;
+        }
+      }
+    }
+  }
+}
